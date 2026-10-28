@@ -74,7 +74,7 @@ font-weight: 600;
     color: #4E4E4E;
 }
 
-#about,#services{
+#about,#services,#blog,#contact{
     background-color: #F5F5F5;
 }
 
@@ -337,6 +337,7 @@ z-index: 1;
 #portfolio .address,#blog .address{
     position: relative;
 }
+
 #portfolio .address::after,
 #blog .address::after{
 content: "";
@@ -348,7 +349,50 @@ left: 50%;
 transform: translate(-50%);
 }
 
+/**********************contact section****************/
+.label{
+    height: 50px;
+}
 
+.text-box{
+    height: 150px;
+}
+
+
+
+#contact .address,
+.get-in-touch .address{
+    position: relative;
+
+}
+.form-col .address::after,
+.get-in-touch .address::after{
+content: "";
+width: 200px;
+height: 2px;
+background-color: #0078FF;
+position:absolute;
+}
+
+#contact .icons .icon-item{
+    width:50px;
+    height: 50px;
+    padding: 10px;
+    background-color: white;
+    border: 4px solid #0078FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+#contact .icons .icon-item:hover{
+    background-color: #0078FF;
+    color: white;
+    border-color: #CDE1F8;
+}
+
+/***************footer********************/
 footer{
     background-color: #0078FF;
     color: white;
