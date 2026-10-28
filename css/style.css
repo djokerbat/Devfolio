@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/images/Cinematic\ Portrait\ with\ Headphones\ and\ Laptop.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+header .name{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.aboutme .card-body .card-title{
+    font-size: 32px;
+    color: #1E1E1E;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.aboutme .card-body .card-title::after{
+    content: "";
+    width: 130px;
+    height: 4px;
+    background-color: #0078FF;
+    bottom: -10px;
+    left: 0;
+    position: absolute;
+}
+
+.card-text{
+    color:#4E4E4E;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.info .title{
+font-size: 18px;
+color: #1E1E1E;
+font-weight: 600;
+}
+
+.info .card-text{
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.personal-img{
+    /* height: 100%; */
+    border-radius: 12px;
+}
+
+.skills span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+
+#about,#services{
+    background-color: #F5F5F5;
+}
+
+.section-title{
+    color:#1E1E1E ;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.address .description{
+    color:#4E4E4E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#services .card-body .card-title{
+    font-size: 22.4px;
+    font-weight: 500;
+    color: #1E1E1E;
+}
+#services .card-body .card-text{
+    color: #4E4E4E;
+    font-size:16px;
+    font-weight: 400;
+}
+.card-body .icon {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border: 12px #0078FF solid;
+}
+#services .card {
+    box-shadow: 0 8px 12px -4px rgba(0, 0, 0, 0.15);
+}
+.card-body .icon i{
+    font-size: 50px;
+    color: black;
+}
+
+.card-body .icon:hover {
+background-color: #0078FF;
+border-color: #CDE1F8;
+}
+.card-body .icon:hover i{
+    color: white;
+}
+
+.counter-card .card-body .icon{
+    width: 100px;
+    height: 100px;
+    border:#CDE1F8 12px solid;
+}
+.counter-card .card-body .icon i{
+    font-size: 30px;
+}
+
+/* .counters-img{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: -300;
+} */
+
+.counters{
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(18, 100, 193, 0.8),
+            rgba(61, 131, 209, 0.9)
+        ),
+        url("/images/counters-bg.jpg");
+        background-size: cover;
+        background-position: center;
+        padding-block: 50px;
+}
+
+
+/***************portfolio section*************/
+.work-card .card-body i{
+    font-size: 40px;
+    color: #0078FF;
+}
+.work-card,
+.work-card .image{
+    overflow: hidden;
+}
+
+.work-card img {
+    transition: transform 0.5s ease;
+}
+.work-card img:hover{
+    transform: scale(1.1);
+}
+#portfolio{
+    background-color: #F5F5F5;
+}
