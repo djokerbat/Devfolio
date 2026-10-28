@@ -8,7 +8,7 @@ body{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Robo
 
 header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-    url("/images/Cinematic\ Portrait\ with\ Headphones\ and\ Laptop.png");
+    url("../images/Cinematic\ Portrait\ with\ Headphones\ and\ Laptop.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@ border-color: #CDE1F8;
             rgba(18, 100, 193, 0.8),
             rgba(61, 131, 209, 0.9)
         ),
-        url("/images/counters-bg.jpg");
+        url("../images/counters-bg.jpg");
         background-size: cover;
         background-position: center;
         padding-block: 50px;
@@ -215,7 +215,7 @@ border-color: #CDE1F8;
             rgba(18, 100, 193, 0.8),
             rgba(61, 131, 209, 0.9)
         ),
-        url("/images/counters-bg.jpg") center / cover no-repeat;
+        url("../images/counters-bg.jpg") center / cover no-repeat;
 }
 
 #testmonials .carousel-item {
